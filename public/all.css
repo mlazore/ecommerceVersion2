@@ -1,0 +1,356 @@
+* {
+	margin: 0;
+	padding: 0;
+	font-style: normal;
+}
+
+body {
+	background-color: rgb(255, 255, 255);
+	font-size: large;
+	font-family: Apple;
+}
+
+#navbar {
+	margin: auto;
+	padding: 10px;
+	background-color: rgb(128, 128, 128);
+	height: 60px;
+	color: black;
+}
+
+ul {
+	padding: 0%;
+	color: black;
+}
+ul:hover{
+    background-color: white;
+
+}
+
+li {
+	display: inline;
+	float: right;
+	padding-left: 10px;
+	padding-right: 10px;
+	margin-top: 40px;
+	font-size: 20px;
+	color: black;
+}
+li:hover{
+    background-color: white;
+}
+
+nav ul li a {
+	text-decoration: none;
+	color: black;
+}
+
+#Fitlife {
+	float: left;
+	margin-left: 44%;
+	text-decoration: none;
+	font-size: 60px;
+	text-align: center;
+	font-style: oblique;
+}
+
+
+
+/*H1 tag welcome to our shop changes*/
+h1 {
+	text-align: center;
+	padding: 10px;
+	/* background-color: rgba(100, 100, 100, .30); */
+}
+
+#showcase1 {
+	position: relative;
+	background: url(https://i.imgur.com/UIfv4MY.jpg) no-repeat center;
+	height: 800px;
+	overflow: hidden;
+	background-size: cover;
+	width: 100%;
+}
+
+.showcasetext {
+	/* position: absolute; */
+	position:inherit;
+	top: 50%;
+	/* left: 38%; */
+	overflow: hidden;
+	text-align: center;
+	color: white;
+	padding: 10px;
+	text-shadow: red 5px 3px;
+	font-size: 25px;
+}
+
+
+
+
+/*css for home page*/
+
+
+/*Below made the width of the image the size of the container*/
+/*Product css below*/
+
+h2 {
+	text-align: center;
+	padding: 10px;
+	background-color: gray;
+	font-size: 40px;
+}
+
+.grid-container {
+	display: grid;
+	grid-template-columns: repeat(4, 1fr);
+	border-style: solid;
+	grid-column-gap: 10px;
+	grid-row-gap: 50px;
+	padding: 5px;
+	border: 5px 5px;
+	background-color: #d9d9d9;
+	font-size: 20px;
+}
+
+.griditem1 {
+	border-style: solid;
+	height: 400px;
+	/* display: flex; */
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	text-align: center;
+
+}
+
+.griditem2 {
+	border-style: solid;
+	height: 400px;
+	/* display: flex; */
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	text-align: center;
+}
+
+.griditem3 {
+	border-style: solid;
+	height: 400px;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	text-align: center;
+}
+
+.griditem4 {
+	border-style: solid;
+	height: 400px;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	text-align: center;
+}
+
+.griditem5 {
+	border-style: solid;
+	height: 400px;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	text-align: center;
+}
+
+.griditem6 {
+	border-style: solid;
+	height: 400px;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	text-align: center;
+}
+
+.griditem7 {
+	border-style: solid;
+	height: 400px;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	text-align: center;
+}
+
+.griditem8 {
+	border-style: solid;
+	height: 400px;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	text-align: center;
+}
+
+.griditem9 {
+	border-style: solid;
+	height: 400px;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	text-align: center;
+}
+
+.griditem10 {
+	border-style: solid;
+	height: 400px;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	text-align: center;
+}
+
+.griditem11 {
+	border-style: solid;
+	height: 400px;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	text-align: center;
+}
+
+.griditem12 {
+	border-style: solid;
+	height: 400px;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	text-align: center;
+}
+
+/*contact page css*/
+
+form {
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	padding: 10px;
+	margin: 10px;
+	align-items: center;
+}
+
+.form {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+	resize: vertical;
+}
+
+.contact {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	text-align: center;
+}
+
+#workout {
+	width: 100%;
+	height: 600px;
+}
+
+table {
+	color: white;
+	padding: 5px;
+	margin: 5px auto;
+}
+
+.showcasetext2 {
+	display: flex;
+	left: 32%;
+	position: absolute;
+	top: 13%;
+	overflow: hidden;
+	text-align: center;
+	padding: 5px;
+	text-shadow: black 5px 2px;
+	font-size: 25px;
+	background-color: rgba(100, 100, 100, .30);
+	justify-content: center;
+	align-items: center;
+}
+
+
+
+
+/*Footer css below*/
+
+#footer-container {
+	background-color: gray;
+	text-align: center;
+	padding: 25px;
+}
+
+.Facebook {
+	margin: 0;
+	width: 100px;
+	height: 20px;
+	padding: 25px;
+	color: darkblue;
+}
+
+.Instagram {
+	margin: 0;
+	width: 100px;
+	height: 20px;
+	padding: 25px;
+    color: plum;
+}
+
+.Twitter {
+	margin: 0;
+	width: 100px;
+	height: 20px;
+	padding: 25px;
+    color: royalblue;
+}
+
+.footer {
+	display: flex;
+	justify-content: center;
+	padding: 25px;
+}
+
+.description {
+	text-align: center;
+}
+
+.footer a i {
+	background-color: red;
+}
+
+@media only screen and (max-width: 800px ) {
+	#Fitlife {
+		float: left;
+		margin-left: 44%;
+		text-decoration: none;
+		font-size: 50px;
+		text-align: center;
+		font-style: oblique;
+	}
+
+	.griditem1, .griditem2, .griditem3, .griditem4, .griditem5,  .griditem6,.griditem7, .griditem8, .griditem9, .griditem10, .griditem11, .griditem12 {
+		height: 330px;
+	}
+
+	.showcasetext2 {
+		display: flex;
+		left: 22%;
+		position: absolute;
+		top: 15%;
+		overflow: hidden;
+		text-align: center;
+		padding: 5px;
+		text-shadow: black 5px 2px;
+		font-size: 25px;
+		background-color: rgba(100, 100, 100, .30);
+		justify-content: center;
+		align-items: center;
+	}
+}

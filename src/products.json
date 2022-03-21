@@ -1,0 +1,90 @@
+{
+    "Product":
+    [
+         {
+         "id": 1,
+         "image": "images/abwheel4.png",
+         "title": "AB Roller",
+         "description": "A tool to help strengthen the core",
+         "price": "$40"
+         },
+
+        {
+            "id": 2,
+            "image": "images/bag4.png",
+            "title": "PunchingBag",
+            "description": "A bag to train boxing",
+            "price": "$100"
+        },
+        {
+            "id": 3,
+            "image": "images/balanceball4.png",
+            "title": "Ball",
+            "description": "A balance ball that helps with stability",
+            "price": "$100"
+        },
+        {
+            "id": 4,
+            "image": "images/bands4.png",
+            "title": "bands",
+            "description": "Resistance bands that help with stretching and muscle building.",
+            "price": "$80"
+        },
+        {
+            "id": 5,
+            "image": "images/dumbbells4.png",
+            "title": "dumbbells",
+            "description": "Free weights that allow individuals to build muscle.",
+            "price": "$200"
+        },
+        {
+            "id": 6,
+            "image": "images/jumprope4.png",
+            "title": "jumprope",
+            "description": "A rope that helps with cardio and burn fat.",
+            "price": "$40"
+        },
+        {
+            "id": 7,
+            "image": "images/kettlebell4.png",
+            "title": "kettlebell",
+            "description": "A free weight that is very easy to use.",
+            "price": "$200"
+        },
+        {
+            "id": 8,
+            "image": "images/massage4.png",
+            "title": "Massage Sam",
+            "description": "A device used to massage sore muscles and help blood flow.",
+            "price": "$150"
+        },
+        {
+            "id": 9,
+            "image": "images/pull4.png",
+            "title": "Pullup Bar",
+            "description": "A tool used to help build and strengthen back muscles.",
+            "price": "$40"
+        },
+        {
+            "id": 10,
+            "image": "images/stairmaster4.png",
+            "title": "Stairmaster",
+            "description": "A cardiovascular training machine ",
+            "price": "$900"
+        },
+        {
+            "id": 11,
+            "image": "images/medicineball4.png",
+            "title": "Weightball",
+            "description": "Used to strengthen core",
+            ",price": "$50"
+        },
+        {
+            "id": 12,
+            "image": "images/yogamat4.png",
+            "title": "yogamat",
+            "description": "A object used to perform yoga on",
+            "price": "$15"
+        }
+    ]
+}
