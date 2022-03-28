@@ -1,10 +1,21 @@
 import React from 'react';
 import Records from "./products.json";
-
+import Knex from 'knex'
 
 const Products = Records.Product
 
 const ProductComponent = () => {
+    const knex1 = Knex({
+        client: 'mysql',
+        connection: {
+          host : '127.0.0.1',
+          port : 3306,
+          user : 'root',
+          password : 'ecommerceREDO',
+          database : 'xx'
+        }
+      });
+    let products = knex1.select().table('Products')
     let test = Products.map((value, index)=> {
         let indexInc = index+1 
         let classnameWithIOndexvalue = "griditem" + indexInc
