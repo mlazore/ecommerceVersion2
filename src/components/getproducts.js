@@ -21,13 +21,13 @@ export default class Getproducts extends Component {
     return (
       <div>
           <h6>Filter By Category</h6>
-          <div6>
-              <button onClick={this.filter("All")}>All</button>
-              <button onClick={this.filter("Strength")}>Strength Training</button>
-              <button onClick={this.filter("Cardio")}>Cardio</button>
-              <button onClick={this.filter("Rehabilitation")}>Rehabilitation</button>
-              <button onClick={this.filter("Resistance")}>Resistance Training</button>
-          </div6>
+          <div className="buttonContainer">
+              <button className="prodbutton" onClick={this.filter("All")}>All</button>
+              <button className="prodbutton" onClick={this.filter("Strength")}>Strength Training</button>
+              <button className="prodbutton" onClick={this.filter("Cardio")}>Cardio</button>
+              <button className="prodbutton" onClick={this.filter("Rehabilitation")}>Rehabilitation</button>
+              <button className="prodbutton" onClick={this.filter("Resistance")}>Resistance Training</button>
+          </div>
           <div className= "grid-container">
               {
                   this.state.productdata

@@ -54,7 +54,21 @@ nav ul li a {
 	font-style: oblique;
 }
 
+.buttonContainer {
+	margin: 1%;
 
+}
+
+.prodbutton {
+	margin-left: .5%;
+	border-radius: 7px;
+	padding: 5px;
+}
+
+h6 {
+	margin-left: 15%;
+	font-size: larger;
+}
 
 /*H1 tag welcome to our shop changes*/
 h1 {
