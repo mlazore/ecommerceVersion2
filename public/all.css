@@ -113,7 +113,7 @@ h2 {
 	font-size: 20px;
 }
 
-.griditem1 {
+.griditem {
 	border-style: solid;
 	height: 400px;
 	/* display: flex; */
@@ -124,35 +124,35 @@ h2 {
 
 }
 
-.griditem2 {
+  /* /* .griditem2 {
 	border-style: solid;
 	height: 400px;
 	/* display: flex; */
-	justify-content: center;
+	/* justify-content: center;
 	align-items: center;
 	flex-direction: column;
-	text-align: center;
-}
+	text-align: center; */
+/* }  */  
 
-.griditem3 {
+/* .griditem3 {
 	border-style: solid;
 	height: 400px;
 	justify-content: center;
 	align-items: center;
 	flex-direction: column;
 	text-align: center;
-}
+} */
 
-.griditem4 {
+/* .griditem4 {
 	border-style: solid;
 	height: 400px;
 	justify-content: center;
 	align-items: center;
 	flex-direction: column;
 	text-align: center;
-}
+} */
 
-.griditem5 {
+/* .griditem5 {
 	border-style: solid;
 	height: 400px;
 	justify-content: center;
@@ -168,9 +168,9 @@ h2 {
 	align-items: center;
 	flex-direction: column;
 	text-align: center;
-}
+} */
 
-.griditem7 {
+/* .griditem7 {
 	border-style: solid;
 	height: 400px;
 	justify-content: center;
@@ -195,9 +195,9 @@ h2 {
 	align-items: center;
 	flex-direction: column;
 	text-align: center;
-}
+} */
 
-.griditem10 {
+/* .griditem10 {
 	border-style: solid;
 	height: 400px;
 	justify-content: center;
@@ -222,7 +222,8 @@ h2 {
 	align-items: center;
 	flex-direction: column;
 	text-align: center;
-}
+}  */
+
 
 /*contact page css*/
 
