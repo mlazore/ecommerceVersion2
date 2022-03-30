@@ -14,6 +14,7 @@
     "crypto": "^1.0.1",
     "express": "^4.17.3",
     "knex": "^1.0.4",
+    "mysql": "^2.18.1",
     "nodemon": "^2.0.15",
     "path": "^0.12.7",
     "react": "^17.0.2",
@@ -23,7 +24,6 @@
     "stream": "^0.0.2",
     "url": "^0.11.0",
     "web-vitals": "^2.1.4"
-
   },
   "scripts": {
     "dev": "react-scripts start",
